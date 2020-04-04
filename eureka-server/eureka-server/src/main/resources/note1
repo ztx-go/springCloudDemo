@@ -1,0 +1,10 @@
+server
+http://localhost:1001/
+
+client
+http://localhost:2001/dc
+
+consumer
+http://localhost:2101
+使用ribbon
+http://localhost:2101/consumer

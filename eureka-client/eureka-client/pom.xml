@@ -35,6 +35,11 @@
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 
+		<!--熔断 服务提供方 使用熔断-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix</artifactId>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
